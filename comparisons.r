@@ -42,7 +42,7 @@ theme(plot.title = element_text(size=(rel(2))),
 
 #loading data and separating it into groups for comparisons
 #there's probably a much better way to do this.
-mouse<-read.csv("/home/louic/Desktop/mouse_pellets/assigned_metabolites/norm_data_r.csv", header = TRUE)
+mouse<-read.csv("/mnt/disk2/tokuwa_metabolomics_data/mouse_pellet/mouse_pellets/assigned_metabolites/norm_data_r.csv", header = TRUE)
 rownames(mouse)<- mouse[,1]
 mouse<-mouse[,2:51]
 
